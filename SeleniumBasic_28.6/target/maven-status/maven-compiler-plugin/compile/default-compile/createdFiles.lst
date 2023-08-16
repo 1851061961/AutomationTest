@@ -1,4 +1,8 @@
+automation\PageLocator\LoginPage.class
+automation\testsuite\Day12_Checkbox_Radio_Dropdown.class
+automation\PageLocator\DashboardPage.class
 automation\testsuite\Hello.class
 automation\testsuite\SearchFlights_Day16.class
+automation\testsuite\Day12_MultiCheckbox.class
 automation\common\TestLogger.class
 automation\common\CommonBase.class
