@@ -3,12 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="alert_windows_iframe.AlertBasic_java">
+      <class name="alert_windows_iframe.IFrame_ExpliciWait">
         <methods>
-          <include name="openPage"/>
-          <include name="TestAlert01"/>
+          <include name="findIFrame1"/>
         </methods>
-      </class> <!-- alert_windows_iframe.AlertBasic_java -->
+      </class> <!-- alert_windows_iframe.IFrame_ExpliciWait -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

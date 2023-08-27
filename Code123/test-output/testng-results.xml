@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-08-24T22:52:06 ICT" name="Default suite" finished-at="2023-08-24T22:53:38 ICT" duration-ms="91654">
+  <suite started-at="2023-08-27T17:51:20 ICT" name="Default suite" finished-at="2023-08-27T17:51:36 ICT" duration-ms="15718">
     <groups>
     </groups>
-    <test started-at="2023-08-24T22:52:06 ICT" name="Default test" finished-at="2023-08-24T22:53:38 ICT" duration-ms="91654">
-      <class name="alert_windows_iframe.AlertBasic_java">
-        <test-method is-config="true" signature="openPage()[pri:0, instance:alert_windows_iframe.AlertBasic_java@50378a4]" started-at="2023-08-24T22:52:06 ICT" name="openPage" finished-at="2023-08-24T22:53:32 ICT" duration-ms="86142" status="PASS">
+    <test started-at="2023-08-27T17:51:20 ICT" name="Default test" finished-at="2023-08-27T17:51:36 ICT" duration-ms="15718">
+      <class name="automation.testsuite.ClientTestFactory_Day15">
+        <test-method is-config="true" signature="openTest()[pri:0, instance:automation.testsuite.ClientTestFactory_Day15@50378a4]" started-at="2023-08-27T17:51:20 ICT" name="openTest" finished-at="2023-08-27T17:51:29 ICT" duration-ms="8576" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- openPage -->
-        <test-method signature="TestAlert01()[pri:0, instance:alert_windows_iframe.AlertBasic_java@50378a4]" started-at="2023-08-24T22:53:32 ICT" name="TestAlert01" finished-at="2023-08-24T22:53:38 ICT" duration-ms="5472" status="PASS">
+        </test-method> <!-- openTest -->
+        <test-method signature="addClientSuccessfuly()[pri:0, instance:automation.testsuite.ClientTestFactory_Day15@50378a4]" started-at="2023-08-27T17:51:29 ICT" name="addClientSuccessfuly" finished-at="2023-08-27T17:51:36 ICT" duration-ms="7096" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TestAlert01 -->
-      </class> <!-- alert_windows_iframe.AlertBasic_java -->
+        </test-method> <!-- addClientSuccessfuly -->
+      </class> <!-- automation.testsuite.ClientTestFactory_Day15 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

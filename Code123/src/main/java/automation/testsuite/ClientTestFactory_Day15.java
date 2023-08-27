@@ -29,9 +29,9 @@ public class ClientTestFactory_Day15 extends CommonBase{
 		
 		ClientTestFactory_Day15 client = new ClientTestFactory_Day15();
 		client.AddClient("Class28.6 Test");
-		
-		
-		
+	}
+	private void AddClient(String string) {
+		// TODO Auto-generated method stub
 		
 	}
 	
