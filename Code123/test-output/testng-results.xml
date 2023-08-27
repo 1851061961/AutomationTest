@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-08-24T22:52:06 ICT" name="Default suite" finished-at="2023-08-24T22:53:38 ICT" duration-ms="91654">
+    <groups>
+    </groups>
+    <test started-at="2023-08-24T22:52:06 ICT" name="Default test" finished-at="2023-08-24T22:53:38 ICT" duration-ms="91654">
+      <class name="alert_windows_iframe.AlertBasic_java">
+        <test-method is-config="true" signature="openPage()[pri:0, instance:alert_windows_iframe.AlertBasic_java@50378a4]" started-at="2023-08-24T22:52:06 ICT" name="openPage" finished-at="2023-08-24T22:53:32 ICT" duration-ms="86142" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openPage -->
+        <test-method signature="TestAlert01()[pri:0, instance:alert_windows_iframe.AlertBasic_java@50378a4]" started-at="2023-08-24T22:53:32 ICT" name="TestAlert01" finished-at="2023-08-24T22:53:38 ICT" duration-ms="5472" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestAlert01 -->
+      </class> <!-- alert_windows_iframe.AlertBasic_java -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
