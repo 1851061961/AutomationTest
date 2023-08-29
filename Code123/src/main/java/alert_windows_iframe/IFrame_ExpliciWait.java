@@ -20,7 +20,7 @@ public class IFrame_ExpliciWait extends CommonBase{
 		scrollToElement(By.xpath("//h2[text()='Đội ngũ giảng viên']"));
 		//int index = findIFrame();
 		driver.switchTo().frame(1);
-		type(By.id("account_phone"),"0979535822");
+		type(By.id("account_phone"),"0338469116");
 		click(By.xpath("//button[text()='Gửi ngay']"));
 	}
 	@Test
@@ -40,8 +40,6 @@ public class IFrame_ExpliciWait extends CommonBase{
 			}
 			driver.switchTo().defaultContent();
 		}
-		
+		click(By.xpath("//span[text()='Bắt đầu chat']"));
 	}
-	
-
 }
