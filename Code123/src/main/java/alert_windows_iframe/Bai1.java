@@ -1,15 +1,12 @@
 package alert_windows_iframe;
 
-import java.util.concurrent.TimeUnit;
-
 import org.openqa.selenium.By;
 import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 import automation.common.CommonBase;
 
-public class Dangky extends CommonBase{
+public class Bai1 extends CommonBase{
 	@BeforeMethod
 	public void openPage() {
 		driver = initChromeDriver("https://codestar.vn/");
@@ -17,11 +14,10 @@ public class Dangky extends CommonBase{
 	@Test
 	public void handleIFrame() {
 		System.out.println("iframe total: " + driver.findElements(By.tagName("iframe")).size());
-		scrollToElement(By.xpath("//h2[text()='Đăng ký nhận tài liệu:']"));
+		scrollToElement(By.xpath("//strong[text()='Chat với CodeStar Academy']"));
 		//int index = findIFrame();
-		driver.switchTo().frame(3);
-		type(By.name("account_name"),"Hai");
-		type(By.id("account_phone"),"0338469226");
-		click(By.xpath("//button[text()='Đăng ký ngay']"));
+		driver.switchTo().frame(2);
+		click(By.xpath("//span[text()='Bắt đầu chat']"));
 	}
+
 }
