@@ -4,6 +4,8 @@ import static org.testng.Assert.assertTrue;
 
 import org.openqa.selenium.WebElement;
 import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Optional;
+import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 import automation.PageLocator.DashboardPage;
@@ -14,9 +16,15 @@ import automation.constant.CT_Account;
 
 public class ClientTestFactory_Day15 extends CommonBase{
 	@BeforeTest
-	public void openTest() {
-		driver = initChromeDriver(CT_Account.webURLRise);
+	@Parameters("testNGbrowser")
+	public void openApplication(@Optional("chrome") String browser) {
+		setupDriver(browser);
+		driver.get(CT_Account.webURLRise);
 	}
+
+//	public void openTest() {
+//		driver = initChromeDriver(CT_Account.webURLRise);
+//	}
 	@Test
 	public void addClientSuccessfuly()
 	{

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite Hai]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Regression test with firfox brower(failed)">
+    <parameter name="testNgBrowser" value="Firefox"/>
+    <classes>
+      <class name="automation.testsuite.ClientTestFactory_Day15">
+        <methods>
+          <include name="addClientSuccessfuly"/>
+          <include name="openApplication"/>
+        </methods>
+      </class> <!-- automation.testsuite.ClientTestFactory_Day15 -->
+    </classes>
+  </test> <!-- Regression test with firfox brower(failed) -->
+  <test thread-count="5" name="Regression test with chrome browser(failed)">
+    <parameter name="testNgBrowser" value="Chrome"/>
+    <classes>
+      <class name="automation.testsuite.ClientTestFactory_Day15">
+        <methods>
+          <include name="addClientSuccessfuly"/>
+          <include name="openApplication"/>
+        </methods>
+      </class> <!-- automation.testsuite.ClientTestFactory_Day15 -->
+    </classes>
+  </test> <!-- Regression test with chrome browser(failed) -->
+</suite> <!-- Failed suite [Suite Hai] -->

@@ -16,8 +16,7 @@ public class Bai1 extends CommonBase{
 		System.out.println("iframe total: " + driver.findElements(By.tagName("iframe")).size());
 		scrollToElement(By.xpath("//strong[text()='Chat với CodeStar Academy']"));
 		//int index = findIFrame();
-		driver.switchTo().frame(2);
+		driver.switchTo().frame(3);
 		click(By.xpath("//span[text()='Bắt đầu chat']"));
 	}
-
 }
